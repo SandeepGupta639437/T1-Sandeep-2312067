@@ -1,0 +1,92 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family:'Poppins',sans-serif;
+}
+body{
+    background:#f9f9f9;
+    min-height:100vh;
+    overflow-x:hidden;
+}
+.nav-bar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px 50px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    z-index:100;
+}
+.logo{
+    font-size: 2em;
+    color:#359381;
+    pointer-events:none;
+    margin-right: 170px;
+}
+.company-logo{
+    border-radius: 30px;
+    height:40px;
+    width:40px;
+}
+.navigation a{
+    text-decoration: none;
+    color:#359381;
+    padding:6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation select{
+    font-size: 1rem;
+    text-decoration: none;
+    color:#359381;
+    padding:6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    border: none;
+    background: #f9f9f9;
+}
+.navigation select:hover{
+    background:#359381;
+    color:white;
+}
+.navigation a:hover{
+    background:#359381;
+    color:white;
+}
+.navigation a.active{
+    background:#359381;
+    color:white;
+}
+.navigation div.icon{
+    display:inline-block;
+    padding-left:120px;
+}
+.navigation i{
+    font-size: 20px;
+}
+.navigation .icon .search{
+    padding-right:30px;
+}
+/* nav bar end */
+/* hero content */
+.hero {
+    font-size: 30px;
+    display:inline-block;
+    width:40vw;
+    position:absolute;
+    top:200px;
+    left:50px;
+}
+ .hero div .food{
+    color:rgb(40, 157, 40);
+ }
+
+
+
+
