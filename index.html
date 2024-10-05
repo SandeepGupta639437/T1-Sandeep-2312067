@@ -2,59 +2,195 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <div class="logo-img">
 
-    <header>
-        <!-- nav bar start -->
-        <div class="nav-bar">
-            <img class="company-logo" src="food.jpeg" alt="">
-            <h2 class="logo">Sandyfood's</h2>
-            <nav class="navigation">
-                <a href="#" class="active">Home</a>
-                <select aria-label="Menu">
-                    <option>Menu</option>
-                    <option>Pizza</option>
-                    <option>Burger</option>
-                    <option>Full Thali</option>
-                </select>
-                <!-- <a href="#">Menu</a> -->
-                <select aria-label="Services">
-                    <option>Services</option>
-                    <option>5mindeli.</option>
-                    <option>Table..</option>
-                    <option>Bathroom</option>
-                </select>
-                <!-- <a href="#">Service</a> -->
-                <a href="#">Offers</a>
-                <div class="icon">
-                    <i class="fa-solid fa-magnifying-glass search"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
-            </nav>
         </div>
-
-        <!-- nav bar end -->
-
-        <!-- hero section start-->
-        <div class="hero">
-            <div class="content">
-                <h2>An unforgettable dining experience,</h2>
-                <h2>at an <b class="food">"irresistible price"</b></h2>
-            </div>
+        <h1 class="name">Sandyfood's</h1>
+      </div>
+      <div class="menu">
+        <a href="#" class="active">Home</a>
+        <a href="#pizza">Menu</a>
+        <a href="#">Service</a>
+        <a href="#">Offers</a>
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass search"></i>
+          <i class="fa-solid fa-bag-shopping"></i>
         </div>
-    </header>
+      </div>
+      <div class="icon">
+
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-1">
+        <div class="text">An unforgettable </div>
+        <div class="text">dining experience,</div>
+        <div class="text">at an <b class="food">"irresistible price"</b></div>
+        <p>Where every meal is a masterpiece <i class="fa-solid fa-thumbs-up"></i>. Bringing flavour of taste in every
+          bite. Our secret ingredient? love for quality.</p>
+        <div class="order">
+          <a class="order-now" target="_blank" href="https://www.zomato.com/">Order Now</a>
+          <a> <b>Watch Video</b></a>
+          <span><a target="_blank" href="https://youtu.be/kbvHM2S2_bk"><i class="fa-solid fa-play"></i></a></span>
+        </div>
+      </div>
+      <div class="hero-2">
+        <div class="hero-img">
+
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- DISH section start-->
+  <h4 id="pizza">CUSTOMER FAVOURITES</h4>
+  <h1 id="catagories">Popular Catagories</h1>
+  <div class="dish">
+    <div class="dishes">
+      <div class="img-1"></div>
+      <div>
+        <h3>Chole Bhature</h3>
+      </div>
+    </div>
+    <div class="dishes">
+      <div class="img-2"></div>
+      <div>
+        <h3>Pizza</h3>
+      </div>
+    </div>
+    <div class="dishes">
+      <div class="img-3"></div>
+      <div>
+        <h3>Burger</h3>
+      </div>
+    </div>
+    <div class="dishes">
+      <div class="img-4"></div>
+      <div>
+        <h3>Saahi Paneer</h3>
+      </div>
+    </div>
+  </div>
+  <!-- DISH SECTION END -->
+
+  <!-- SPECIAL DISHES SECTION START -->
+  <div class="special-1">SPECIAL DISHES</div>
+  <br>
+  <div class="special-2">Standout Dishes<br>From Our Menu </div>
+  <div class="container-special">
+    <div class="special">
+      <div class="box-1-img"></div>
+      <h2>Fattoush salad</h2>
+      <div class="rate">
+        <p class="rate-1">$24.00</p>
+        <p class="rate-2"><i class="fa-solid fa-star"></i>4.9</p>
+      </div>
+    </div>
+
+    <div class="special">
+      <div class="box-2-img"></div>
+      <h2>Special Desert</h2>
+      <div class="rate">
+        <p class="rate-1">$12.00</p>
+        <p class="rate-2"><i class="fa-solid fa-star"></i>5.0</p>
+      </div>
+    </div>
+
+    <div class="special">
+      <div class="box-3-img"></div>
+      <h2>Cold Cofee</h2>
+      <div class="rate">
+        <p class="rate-1">$4.00</p>
+        <p class="rate-2"><i class="fa-solid fa-star"></i>4.6</p>
+      </div>
+    </div>
+  </div>
 
 
+  <!-- SPECIAL DISHES SECTION END -->
 
+
+  <!-- FOOTER SECTION START  -->
+  <footer>
+    <div class="footer-1">
+      <div class="f1">
+        <div class="f1-name">
+          <div class="logo-img">
+          </div>
+          <h1 class="name">Sandyfood's</h1>
+        </div>
+        <p>
+          <b>A culinary journey you'll want to take again and again</b>
+          <br>
+          <br>
+          <b>Bringing flavour and passion to your plate</b>
+        </p>
+      </div>
+      <div>
+        <ul class="l1">
+          <li><b>home</b></li>
+          <li><a>Clireers</a></li>
+          <li>Blog</li>
+          <li>libout limlizon</li>
+          <li>Investor Rellitions</li>
+          <li>limlizon Devices</li>
+          <li></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="l1">
+          <li>Get to Know Us</li>
+          <li>Clireers</li>
+          <li>Blog</li>
+          <li>libout limlizon</li>
+          <li>Investor Rellitions</li>
+          <li>limlizon Devices</li>
+          <li></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="l1">
+          <li>Get to Know Us</li>
+          <li>Clireers</li>
+          <li>Blog</li>
+          <li>libout limlizon</li>
+          <li>Investor Rellitions</li>
+          <li>limlizon Devices</li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-2">
+      <div class="social_media">
+        <a target="_blank" href="https://www.instagram.com/_sandeep_gupta_er/profilecard/?igsh=czFzNDNucTB5bG42"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/share/S34E7wfRg7oEGLYa/"><i
+            class="fa-brands fa-facebook"></i></a>
+        <a target="_blank" href="https://x.com/_Sandeep_er?t=QQKANQVgviMdCUQBp4463w&s=08"><i
+            class="fa-brands fa-twitter"></i></a>
+        <a target="_blank" href="https://youtube.com/@sandeepguptagupta1500?si=BhhnXrFI7IW9Mybv"><i
+            class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="copyrights">Copyright <i class="fa-regular fa-copyright"></i> 2024 Dscode | All rights reserved</div>
+      <div class="contact"><b>Contact us:-></b> <a target="_blank" href="sandeepgupta18@gmail.com"><i
+            class="fa-solid fa-envelope"></i>sandeepguptag18@gmail.com</a> </div>
+    </div>
+  </footer>
+  <!-- FOOTER SECTION END -->
 </body>
 
 </html>

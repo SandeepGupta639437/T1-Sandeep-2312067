@@ -1,0 +1,71 @@
+.navbar{
+    margin-top:1rem;
+    display:flex;
+    justify-content: space-around;
+    width:100vw;
+    height:45px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo-img{
+    background-image: url(food.jpeg);
+    background-size: cover;
+    border-radius: 30%;
+    height: 40px;
+    width:40px;
+}
+.name{
+    color:#359381;
+    text-shadow: 2px 2px 4px rgba(10, 136, 119, 0.5);
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color:#359381;
+    padding:6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.menu select{
+    font-size: 1rem;
+    text-decoration: none;
+    color:#359381;
+    padding:6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    border: none;
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+.menu select:hover{
+    background:#359381;
+    color:white;
+}
+.menu a:hover{
+    background:#359381;
+    color:white;
+}
+.menu a.active{
+    background:#359381;
+    color:white;
+}
+.menu .icon{
+    display:flex;
+    cursor: pointer;
+    position:absolute;
+    right:80px;
+    font-size: 20px;
+}
+.navbar i{ 
+    margin-right:30px;
+}
