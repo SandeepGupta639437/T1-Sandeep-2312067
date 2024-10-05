@@ -132,6 +132,8 @@ box-shadow: 1px 1px 10px  rgb(11, 11, 11);
     border-radius: 30%;
     background-image: url(rest.jpg);
     background-size: cover;
+    box-shadow: 2px 2px 25px  rgb(11, 11, 11);
+
     
 }
 h4{
@@ -315,15 +317,8 @@ h4{
     display: flex;
     justify-content: space-between;
 }
-.rate-1{
-    position:relative;
-    left:2px;
-    bottom:2px;
-}
-
-.scale:hover{
-    transition-duration:1s ;
-    scale: 1.1;
+.rate-2 i{
+    color:rgb(239, 183, 41);
 }
 /* SPECIAL DISHES END */
 
@@ -366,7 +361,13 @@ h4{
     background-image: url(delivery.jpg);
     background-size: cover;
  }
+ /* .scale:hover{
+    transition-duration:1s ;
+    scale: 1.1;
+} */
  .wide:hover{
+    transition-duration: 0.5s;
+        scale:1.1;
     box-shadow: 2px 2px 25px  rgb(35, 13, 177);
  }
 
