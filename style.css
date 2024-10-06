@@ -99,6 +99,7 @@
     padding:10px;
     background-color: #43e40d;
     text-decoration: none;
+    text-shadow: 2px 2px 10px rgb(7, 56, 4);
     color:#fcfdfd;
     border-radius: 20px;
     font-weight: 600;
@@ -136,6 +137,9 @@ box-shadow: 1px 1px 10px  rgb(11, 11, 11);
 
     
 }
+/* Header end  */
+
+/* DISHES SECTION START */
 h4{
     color:red;
     text-align: center;
@@ -154,9 +158,15 @@ h4{
     margin-top: 2rem;
     margin-bottom:5rem;
 }
-.special{
-    height:200px;
-    width:300px;
+.special-dish{
+    height:300px;
+    width:280px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15%;
+    background-color: white;
+    box-shadow: 2px 2px 15px  rgb(99, 193, 105);
 }
 .dish-2{
     font-size: 30px;
@@ -165,15 +175,17 @@ h4{
 }
 .dish-1-img{
     height:200px;
-    width:200px;
+    width:280px;
+    margin-bottom: 20px;
     border-radius: 20px;
     background-image: url(chole.png);
     background-size: cover;
  }
  .dish-2-img{
     height:200px;
-    width:200px;
+    width:280px;
     border-radius: 20px;
+    margin-bottom: 20px;
     background-image: url(pizza.png);
     background-size: cover;
  }
@@ -181,16 +193,24 @@ h4{
     height:200px;
     width:200px;
     border-radius: 20px;
+    margin-bottom: 20px;
     background-image: url(burger.png);
     background-size: cover;
  }
  .dish-4-img{
     height:200px;
-    width:230px;
+    width:280px;
     border-radius: 20px;
+    margin-bottom: 20px;
     background-image: url(paneer.png);
     background-size: cover;
  }
+ .special-dish h2 a{
+    text-shadow: 1px 1px 5px rgb(201, 162, 162);
+    text-decoration: none;
+    color:rgb(140, 39, 5);
+}
+/* DISHES SECTION END  */
 /* footer section */
 
 .footer-1{
@@ -284,7 +304,7 @@ h4{
     align-items: center;
     border-radius: 15%;
     background-color: white;
-    box-shadow: 2px 2px 25px  rgb(13, 177, 24);
+    box-shadow: 2px 2px 15px  rgb(99, 193, 105);
 }
  .box-1-img{
     height:200px;
@@ -306,6 +326,11 @@ h4{
  }
 .special h2{
     margin:18px;
+}
+.special h2 {
+    text-shadow: 1px 1px 5px rgb(198, 194, 194);
+    text-decoration: none;
+    color:rgb(5, 4, 4);
 }
 
 .dishes h3{
@@ -368,7 +393,7 @@ h4{
  .wide:hover{
     transition-duration: 0.5s;
         scale:1.1;
-    box-shadow: 2px 2px 25px  rgb(35, 13, 177);
+    box-shadow: 2px 2px 10px  rgb(152, 145, 195);
  }
 
 @media (max-width:950px){

@@ -85,7 +85,7 @@
 .types{
     width:100%;
 }
-.img-pizza-1{
+.img-burger-1{
     margin:10px;
     height:250px;
     width:300px;
@@ -93,16 +93,16 @@
     background-size: cover;
     box-shadow: 2px 2px 20px  rgb(10, 9, 9);
 }
-.pizza1{
-    background-image: url(pizza1.jpg);
+.burger1{
+    background-image: url(potato.jpg);
 }
-.pizza2{
-    background-image: url(makhni.jpg);
+.burger2{
+    background-image: url(cheese.jpg);
 }
-.pizza3{
-    background-image: url(veggie.jpg);
+.burger3{
+    background-image: url(achari.jpg);
 }
-.pizza-1{
+.burger-1{
     display:flex;
     justify-content: space-evenly;
       margin-top:50px;
