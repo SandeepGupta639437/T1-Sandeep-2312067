@@ -181,7 +181,7 @@
  /* footer end */
 
 
- @media(max-width:800px){
+ @media(max-width:857px){
     .burger-1{
         display:flex;
         flex-direction: column;
@@ -190,45 +190,39 @@
         margin-top:50px;
     }
     .img-burger-1{
-        height:250px;
-        width:400px;
-    }
- }
-
-
- @media(min-width:1250px)and (max-width:1800px){
-    .img-burger-1{
-        height:350px;
-        width:500px;
-    }
-    .about-1 h2{
-         font-size: 40px;
-    }
-    .about-1 h1{
-        font-size: 40px;
-    }
-    .about-1 h4{
-        font-size: 25px;
-    }
-    .about-1 h3{
-        font-size: 35px;
+        height:500px;
+        width:700px;
     }
  }
  @media(min-width:1800px){
     .img-burger-1{
-        height:400px;
-        width:600px;
+        height:450px;
+        width:650px;
     }
     .about-1 h2{
-         font-size: 40px;
-    }
-    .about-1 h1{
         font-size: 40px;
-    }
-    .about-1 h4{
-        font-size: 25px;
-    }
-    .about-1 h3{
-        font-size: 35px;
-    }
+   }
+   .about-1 h1{
+       font-size: 40px;
+   }
+   .about-1 h4{
+       font-size: 25px;
+   }
+   .about-1 h3{
+       font-size: 35px;
+   }
  }
+ @media (max-width:950px){
+
+    .name1{
+        font-size: 15px;
+    }
+    .menu .icon{
+        display:flex;
+        cursor: pointer;
+        position:absolute;
+        left:10px;
+        top:80px;
+        font-size: 20px;
+    }
+}

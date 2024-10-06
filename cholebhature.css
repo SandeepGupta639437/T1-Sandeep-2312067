@@ -192,7 +192,7 @@
  /* footer end */
 
 
- @media(max-width:837px){
+ @media(max-width:857px){
     .pizza-1{
         display:flex;
         flex-direction: column;
@@ -200,24 +200,28 @@
         align-items: center;
         margin-top:50px;
     }
+    .img-pizza-1{
+        height:500px;
+        width:700px;
+    }
  }
- @media(min-width:1250px)and (max-width:1800px){
-    .img-burger-1{
-        height:350px;
-        width:500px;
+ @media(min-width:1800px){
+    .img-pizza-1{
+        height:450px;
+        width:650px;
     }
     .about-1 h2{
-         font-size: 40px;
-    }
-    .about-1 h1{
         font-size: 40px;
-    }
-    .about-1 h4{
-        font-size: 25px;
-    }
-    .about-1 h3{
-        font-size: 35px;
-    }
+   }
+   .about-1 h1{
+       font-size: 40px;
+   }
+   .about-1 h4{
+       font-size: 25px;
+   }
+   .about-1 h3{
+       font-size: 35px;
+   }
  }
  @media (max-width:950px){
 
