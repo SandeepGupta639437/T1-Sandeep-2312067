@@ -87,8 +87,8 @@
 }
 .img-burger-1{
     margin:10px;
-    height:250px;
-    width:300px;
+    height:350px;
+    width:500px;
     border-radius: 30%;
     background-size: cover;
     box-shadow: 2px 2px 20px  rgb(10, 9, 9);
@@ -134,6 +134,17 @@
     margin-top:100px;
     justify-content: space-around;
 }
+.logo-img1{
+    background-image: url(food.jpeg);
+    background-size: cover;
+    border-radius: 30%;
+    height: 40px;
+    width:40px;
+}
+.name1{
+    color:#359381;
+    text-shadow: 2px 2px 4px rgba(10, 136, 119, 0.5);
+}
 .f1{
    width:20vw;
 }
@@ -156,27 +167,21 @@
 }
 .footer-2{
     display:flex;
+    justify-content: center;
     margin-top:60px;
+    margin-bottom:20px;
 }
-.footer-2 i{
-   font-size: 20px;
-   margin-right:15px;
-   color: black;
-   opacity:0.5;
-}
-.social_media{
-    margin-left:50px;
-    margin-bottom: 10px;
-}
-.footer-2 i:hover{
-    scale: 1.5;
-   opacity:2;
-    color: rgb(201, 20, 20);
+.social_media i{
+    font-size: 20px;
+    margin-right:15px;
+    color: black;
+    opacity:0.5;
  }
-
- .copyrights{
-    margin-left:250px;
- }
+ .social_media i:hover{
+     scale: 1.5;
+    opacity:2;
+     color: rgb(201, 20, 20);
+  }
  .contact{
     cursor: pointer;
    position:fixed;
@@ -185,3 +190,50 @@
  }
 
  /* footer end */
+
+
+ @media(max-width:800px){
+    .burger-1{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top:50px;
+    }
+    .img-burger-1{
+        height:250px;
+        width:400px;
+    }
+ }
+ @media(min-width:1250px) and (max-width:1800px){
+    .img-burger-1{
+        height:350px;
+        width:500px;
+    }
+    .about-1 h2{
+         font-size: 40px;
+    }
+    .about-1 h1{
+        font-size: 40px;
+    }
+    .about-1 h4{
+        font-size: 25px;
+    }
+    .about-1 h3{
+        font-size: 35px;
+    }
+ }
+ @media (max-width:950px){
+
+    .name1{
+        font-size: 15px;
+    }
+    .menu .icon{
+        display:flex;
+        cursor: pointer;
+        position:absolute;
+        left:10px;
+        top:80px;
+        font-size: 20px;
+    }
+}
