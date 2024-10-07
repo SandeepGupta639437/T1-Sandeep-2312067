@@ -24,7 +24,7 @@
     align-items: center;
 }
 .logo-img{
-    background-image: url(food.jpeg);
+    background-image: url(../asset/food.jpeg);
     background-size: cover;
     border-radius: 30%;
     height: 40px;
@@ -81,13 +81,13 @@
     box-shadow: 2px 2px 20px  rgb(10, 9, 9);
 }
 .burger1{
-    background-image: url(potato.jpg);
+    background-image: url(../asset/potato.jpg);
 }
 .burger2{
-    background-image: url(cheese.jpg);
+    background-image: url(../asset/cheese.jpg);
 }
 .burger3{
-    background-image: url(achari.jpg);
+    background-image: url(../asset/achari.jpg);
 }
 .burger-1{
     display:flex;
@@ -117,7 +117,7 @@
 }
 
 .logo-img1{
-    background-image: url(food.jpeg);
+    background-image: url(../asset/food.jpeg);
     background-size: cover;
     border-radius: 30%;
     height: 40px;
@@ -163,7 +163,7 @@
     display:flex;
     justify-content: center;
     margin-top:60px;
-    margin-bottom:20px;
+    padding-bottom:20px;
 }
 .social_media i{
     font-size: 20px;
@@ -181,6 +181,10 @@
    position:fixed;
    bottom:10px;
    right:5px;
+ }
+
+ footer{
+    background-color: rgba(193, 216, 216, 0.8);
  }
 
  /* footer end */

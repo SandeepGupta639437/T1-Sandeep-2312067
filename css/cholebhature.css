@@ -25,7 +25,7 @@
     align-items: center;
 }
 .logo-img{
-    background-image: url(food.jpeg);
+    background-image: url(../asset/food.jpeg);
     background-size: cover;
     border-radius: 30%;
     height: 2.2rem;
@@ -82,13 +82,13 @@
     box-shadow: 2px 2px 20px  rgb(10, 9, 9);
 }
 .pizza1{
-    background-image: url(pizza1.jpg);
+    background-image: url(../asset/pizza1.jpg);
 }
 .pizza2{
-    background-image: url(makhni.jpg);
+    background-image: url(../asset/makhni.jpg);
 }
 .pizza3{
-    background-image: url(veggie.jpg);
+    background-image: url(../asset/veggie.jpg);
 }
 .pizza-1{
     display:flex;
@@ -117,7 +117,7 @@
     width:100%;
 }
 .logo-img1{
-    background-image: url(food.jpeg);
+    background-image: url(../asset/food.jpeg);
     background-size: cover;
     border-radius: 30%;
     height: 40px;
@@ -134,7 +134,7 @@
     justify-content: space-around;
 }
 .logo-img1{
-    background-image: url(food.jpeg);
+    background-image: url(../asset/food.jpeg);
     background-size: cover;
     border-radius: 30%;
     height: 40px;
@@ -191,6 +191,10 @@
    position:fixed;
    bottom:10px;
    right:5px;
+ }
+
+ footer{
+    background-color: rgba(193, 216, 216, 0.8);
  }
 
  /* footer end */
