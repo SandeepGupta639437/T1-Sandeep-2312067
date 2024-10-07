@@ -425,7 +425,7 @@ h4{
         height:900px;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .hero-1 p{
         font-size: 16px;
@@ -444,10 +444,10 @@ h4{
     }
 }
 @media (max-width:950px){
-    .navbar{
-        height: 11.5rem;
-        margin-bottom: 0.3rem;
-     }
+    /* .navbar{
+        height:9.5rem;
+        margin-bottom:0.3rem;
+     } */
     .name1{
         font-size: 15px;
     }
@@ -462,10 +462,10 @@ h4{
 }
 
 @media (max-width:400px){
-    .navbar{
+    /* .navbar{
         height:9.5rem;
         margin-bottom: 0.3rem;
-     }
+     } */
    .menu .icon{
     display:flex;
     cursor: pointer;
@@ -481,9 +481,9 @@ h4{
 
 }
 
-@media (max-width:762px){
+@media (max-width:783px){
     .navbar{
-        height:11.5rem;
+        height:7.5rem;
         margin-bottom: 0.3rem;
      }
      .hero-1{
@@ -491,6 +491,7 @@ h4{
         width:400px;
         font-size: 1.8rem;
         margin-left: 100px;
+        margin-top:100px;
     }
     .hero-2{
         margin-right:0;
@@ -499,10 +500,10 @@ h4{
 }
 
 @media (max-width:515px){
-    .navbar{
+    /* .navbar{
         height: 11.5rem;
         margin-bottom: 0.3rem;
-     }
+     } */
      .hero-1{
         height:520px;
         width:280px;
@@ -542,6 +543,10 @@ h4{
     }
     .hero-1 p{
         font-size: 15px;
+    }
+
+    .wide{
+        width:300px;
     }
 
 }
