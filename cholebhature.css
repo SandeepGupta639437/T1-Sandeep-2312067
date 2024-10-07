@@ -10,11 +10,15 @@
     overflow-x: hidden;
 }
 .navbar{
-    margin-top:1rem;
+    /* margin-top:1rem; */
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-around;
     width:100vw;
-    height:45px;
+    height:3.8rem;
+    position: sticky;
+    top:0rem;
+    background-color: #03372d;
 }
 .logo{
     display:flex;
@@ -24,47 +28,30 @@
     background-image: url(food.jpeg);
     background-size: cover;
     border-radius: 30%;
-    height: 40px;
-    width:40px;
+    height: 2.2rem;
+    width:2.2rem;
 }
 .name{
-    color:#359381;
+    color:#e2efc4;
     text-shadow: 2px 2px 4px rgba(10, 136, 119, 0.5);
 }
 .menu{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 .menu a{
     text-decoration: none;
-    color:#359381;
-    padding:6px 15px;
-    border-radius: 20px;
-    margin: 0 10px;
+    color:#fcfdfd;
+    padding:0.4rem 1rem;
+    border-radius: 1.2rem;
+    margin: 0 0.6rem;
     font-weight: 600;
-}
-
-.menu select{
-    font-size: 1rem;
-    text-decoration: none;
-    color:#359381;
-    padding:6px 15px;
-    border-radius: 20px;
-    margin: 0 10px;
-    font-weight: 600;
-    border: none;
-    background: #f9f9f9;
-    cursor: pointer;
-}
-
-.menu select:hover{
-    background:#359381;
-    color:white;
 }
 .menu a:hover{
-    background:#359381;
-    color:white;
+    background:white;
+    color:#031e19;
 }
 .menu a.active{
     background:#359381;
@@ -74,8 +61,9 @@
     display:flex;
     cursor: pointer;
     position:absolute;
-    right:80px;
-    font-size: 20px;
+    right:5rem;
+    font-size: 1.2rem;
+    color:white;
 }
 .navbar i{ 
     margin-right:30px;
@@ -127,6 +115,17 @@
 /* footer section */
 #contact{
     width:90%;
+}
+.logo-img1{
+    background-image: url(food.jpeg);
+    background-size: cover;
+    border-radius: 30%;
+    height: 40px;
+    width:40px;
+}
+.name1{
+    color:#359381;
+    text-shadow: 2px 2px 4px rgba(10, 136, 119, 0.5);
 }
 .footer-1{
     display: flex;
@@ -192,6 +191,7 @@
  /* footer end */
 
 
+
  @media(max-width:857px){
     .pizza-1{
         display:flex;
@@ -201,26 +201,26 @@
         margin-top:50px;
     }
     .img-pizza-1{
-        height:500px;
-        width:700px;
+        height:31.25rem;
+        width:43.75rem;
     }
  }
  @media(min-width:1800px){
     .img-pizza-1{
-        height:450px;
-        width:650px;
+        height:28.125rem;
+        width:40.625rem;
     }
     .about-1 h2{
-        font-size: 40px;
+        font-size: 2.5ren;
    }
    .about-1 h1{
-       font-size: 40px;
+       font-size: 2.5rem;
    }
    .about-1 h4{
-       font-size: 25px;
+       font-size: 1.56rem;
    }
    .about-1 h3{
-       font-size: 35px;
+       font-size: 2.18rem;
    }
  }
  @media (max-width:950px){
@@ -236,4 +236,36 @@
         top:80px;
         font-size: 20px;
     }
+}
+
+@media (max-width:788px){
+     .navbar{
+        height:6.5rem;
+        margin-bottom: 0.3rem;
+     }
+     .img-pizza-1{
+        height:22rem;
+        width:25rem;
+    }
+
+}
+
+@media (max-width:400px){
+    .navbar{
+       height:9.5rem;
+       margin-bottom: 0.3rem;
+    }
+    .img-pizza-1{
+       height:18rem;
+       width:21rem;
+   }
+   .menu .icon{
+    display:flex;
+    cursor: pointer;
+    position:absolute;
+    left:1.5rem;
+    top:7.8rem;
+    font-size: 20px;
+}
+
 }
