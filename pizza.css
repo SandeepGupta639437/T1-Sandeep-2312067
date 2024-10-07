@@ -163,6 +163,11 @@
 }
 .l1 a{
     text-decoration: none;
+    color:black;
+}
+.l1 a:hover{
+    text-decoration: none;
+    color:rgb(187, 8, 8);
 }
 .footer-2{
     display:flex;

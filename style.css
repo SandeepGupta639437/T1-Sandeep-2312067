@@ -14,8 +14,9 @@
     flex-wrap:wrap;
     justify-content: space-around;
     background-color: #03372d;
+    position: fixed;
     width:100vw;
-    height:45px;
+    height:55px;
 }
 .logo{
     display:flex;
@@ -58,8 +59,9 @@
     display:flex;
     cursor: pointer;
     position:absolute;
-    right:80px;
-    font-size: 20px;
+    right:5rem;
+    font-size: 1.2rem;
+    color:white;
 }
 .navbar i{ 
     margin-right:30px;
@@ -375,6 +377,11 @@ h4{
 }
 .l1 a{
     text-decoration: none;
+    color:black;
+}
+.l1 a:hover{
+    text-decoration: none;
+    color:rgb(187, 8, 8);
 }
 .footer-2{
     display:flex;
@@ -437,7 +444,10 @@ h4{
     }
 }
 @media (max-width:950px){
-
+    .navbar{
+        height: 11.5rem;
+        margin-bottom: 0.3rem;
+     }
     .name1{
         font-size: 15px;
     }
@@ -453,9 +463,9 @@ h4{
 
 @media (max-width:400px){
     .navbar{
-       height: 11.5rem;
-       margin-bottom: 0.3rem;
-    }
+        height:9.5rem;
+        margin-bottom: 0.3rem;
+     }
    .menu .icon{
     display:flex;
     cursor: pointer;
@@ -473,7 +483,7 @@ h4{
 
 @media (max-width:762px){
     .navbar{
-        height: 11.5rem;
+        height:11.5rem;
         margin-bottom: 0.3rem;
      }
      .hero-1{

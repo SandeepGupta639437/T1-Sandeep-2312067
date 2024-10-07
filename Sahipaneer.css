@@ -13,9 +13,11 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #012c34ec;
+    background-color: #03372d;
+    position:sticky;
+    top:0;
     width:100vw;
-    height:45px;
+    height:55px;
 }
 .logo{
     display:flex;
@@ -151,6 +153,11 @@
 }
 .l1 a{
     text-decoration: none;
+    color:black;
+}
+.l1 a:hover{
+    text-decoration: none;
+    color:rgb(187, 8, 8);
 }
 .footer-2{
     display:flex;
